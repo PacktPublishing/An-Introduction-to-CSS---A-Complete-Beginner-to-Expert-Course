@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+}
+
+section{
+    background-color: aliceblue;
+}
+footer{
+    background-color: darkgray;
+    color:white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    background-color: red;
+    color:white;
+}

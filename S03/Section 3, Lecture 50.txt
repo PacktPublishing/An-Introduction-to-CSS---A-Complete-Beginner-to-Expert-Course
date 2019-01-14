@@ -1,0 +1,17 @@
+Source Code Hyperlinks
+Section 3, Lecture 50
+a:link {
+    color: purple;
+}
+ 
+a:visited {
+    color: red;
+}
+ 
+a:hover {
+    color: aquamarine
+}
+ 
+a:active {
+    color: green;
+}

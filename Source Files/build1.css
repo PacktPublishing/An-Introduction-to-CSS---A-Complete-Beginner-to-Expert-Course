@@ -1,0 +1,108 @@
+body {
+    background-color: aliceblue;
+    font-family: fantasy;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 10%;
+}
+
+#info img,
+#info h1,
+#info h2 {
+    display: inline-block;
+}
+
+#info img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#info h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#info h2 {
+    color: #333;
+    margin-left: 15px;
+    font-size: 0.8em;
+}
+
+#banner {
+    background: url('CSS.png') no-repeat;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+}
+
+#bannerText {
+    position: absolute;
+    bottom: 10%;
+    background-color: red;
+    right: 10%;
+    padding: 15px;
+    color: white;
+    border-radius: 15px 5px;
+    font-size: 1.2em;
+}
+
+nav {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    border-bottom: 1px dotted red;
+    color: white;
+}
+
+nav a:hover {
+    color: aqua;
+    border-bottom: 3px solid blue;
+}
+
+section article,
+section aside {}
+
+section article {
+    float: left;
+    width: 65%;
+    margin: 0;
+}
+
+section article img{
+    max-width: 50%;
+}
+section aside {
+    float: right;
+    width: 34%;
+    margin: 0;
+}
+
+footer {
+    clear: both;
+    background: #ddd;
+}
+
+footer div{
+    display: inline-block;
+    width:33%;
+    vertical-align: top;
+
+}

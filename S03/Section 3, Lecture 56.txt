@@ -1,0 +1,8 @@
+Source Code Overflow
+Section 3, Lecture 56
+textarea {
+    border: 1px solid #888;
+    max-height: 80px;
+    max-width: 80px;
+    overflow: hidden;
+}

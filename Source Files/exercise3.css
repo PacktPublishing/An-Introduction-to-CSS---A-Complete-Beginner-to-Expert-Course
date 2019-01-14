@@ -1,0 +1,63 @@
+/*
+1. create background of body to color #3C3176;
+2. make H2 #10073B
+3. make section background #867DB0 with dotted border.  add small margin top/bottom only to separate the sections.  Padding for slight indent of text.  Add a minimum height to the sections
+4. create nav bar - using padding and colors #231858 background #FFF font;
+5. make logo font color white, align center, font 6. size 1.5em and font style fantasy
+import your favorite google font and add to the body
+7. footer padding and centered text with grey background
+8. images to max size of 150px and to be right aligned
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background-color: #3C3176;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 40px;
+    font-family: fantasy;
+}
+
+h2,
+h3 {
+    color: #10073B;
+}
+
+section {
+    background-color: #867DB0;
+    border: 3px dotted white;
+    margin: 5px 0;
+    padding: 5px;
+    min-height: 300px;
+}
+
+header {
+    background: black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    background-color: #231858;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+img {
+    max-width: 150px;
+    float: right;
+}
+
+footer {
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

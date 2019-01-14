@@ -1,0 +1,190 @@
+body {
+    background-color: aquamarine;
+    font-family: serif;
+    color: #000;
+}
+
+#wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+section h2,
+footer h3,
+nav a {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#banner {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('https://via.placeholder.com/500x500') no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 4px 4px blue;
+    margin-bottom: 25px;
+}
+
+#main_title {
+    display: inline-block;
+}
+
+header h1 {
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo,
+header h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+/* Navigation */
+
+nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Banner */
+
+#banner_description {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24, 24, 24);
+    /* Old browsers will read this */
+    background-color: rgba(24, 24, 24, 0.8);
+    /* New browsers will read this */
+    color: white;
+    font-size: 0.8em;
+}
+
+
+/* Body */
+
+article,
+aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article {
+    width: 625px;
+    margin-right: 15px;
+}
+
+article p {
+    font-size: 0.8em;
+}
+
+aside {
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside img {
+    margin-right: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background: url('https://via.placeholder.com/1500x500') no-repeat top center;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+footer p,
+footer ul {
+    font-size: 0.8em;
+}
+
+footer h3 {
+    font-size: 1.1em;
+}
+
+#location,
+#details,
+#links {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
+
+#location,
+#links {
+    width: 22%;
+}
+
+#details {
+    width: 42%;
+}
+
+#pictures img {
+    border: 1px solid #181818;
+    margin-right: 2px;
+    max-width: 24%;
+}
+
+#links ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 45%;
+    padding-left: 2px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #760001;
+}
+
+
